@@ -1,2 +1,2 @@
 # practice
-For Basic practice of my knowledge
+For Basic practice of my knowledge from my development.
