@@ -1,2 +1,1 @@
-# practice
-For Basic practice of my knowledge from my development.
+This is Subjected and copyrighted to Sri Divya Sai Software solutions.
