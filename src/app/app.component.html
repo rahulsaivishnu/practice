@@ -1,18 +1,24 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<div class="header">
-  <h3>SRI DIVYA SAI SOFTWARE SOLUTIONS PVT LTD</h3>
-  <marquee behavior="scroll" direction="left" scrollamount="5">Welcome to our website, We develop software applications to your business</marquee>
-  <!-- <p>Scroll down to see the sticky effect.</p> -->
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+  <div
+    class="top-border wow fadeInDown animated"
+    style="visibility: visible; animation-name: fadeInDown"
+  ></div>
+  <div
+    class="right-border wow fadeInRight animated"
+    style="visibility: visible; animation-name: fadeInRight"
+  ></div>
+  <div
+    class="bottom-border wow fadeInUp animated"
+    style="visibility: visible; animation-name: fadeInUp"
+  ></div>
+  <div
+    class="left-border wow fadeInLeft animated"
+    style="visibility: visible; animation-name: fadeInLeft"
+  ></div>
 </div>
-
-<ul class="menuclass">
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-</ul>
-
-</body>
-</html>
+<!--Main Content Area-->
+<main id="content">
+  <app-navigation></app-navigation>
+  <router-outlet></router-outlet>
+</main>
+<!--End Main Content Area-->

@@ -1,1 +1,1 @@
-This is Subjected and copyrighted to Sri Divya Sai Software solutions.
+This is the project for sri divya sai software solutions pvt ltd.
