@@ -26,8 +26,8 @@ import { ConfigService } from './config.service';
     // ClientsComponent,
     // PricingComponent,
     HeaderComponent,
-    // SocialComponent,
-    // NavigationComponent
+    SocialComponent,
+    NavigationComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [ConfigService],
