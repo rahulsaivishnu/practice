@@ -12,11 +12,11 @@ import { HeaderComponent } from './header/header.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/Home', pathMatch: 'full' },
-  { path: 'Home', component: HeaderComponent },
-  { path: 'About', component: IntroComponent },
-  { path: 'Services', component: ContentComponent },
+  { path: '/Home', component: HeaderComponent },
+  { path: '/About', component: IntroComponent },
+  { path: '/Services', component: ContentComponent },
   // { path: 'Testimonials', component: TestimonialsComponent },
-  { path: 'Gallery', component: GalleryComponent },
+  { path: '/Gallery', component: GalleryComponent },
   // { path: 'Clients', component: ClientsComponent },
   // { path: 'Pricing', component: PricingComponent }
 ];
