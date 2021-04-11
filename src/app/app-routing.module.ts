@@ -16,7 +16,7 @@ const routes: Routes = [
   { path: 'About', component: IntroComponent },
   { path: 'Services', component: ContentComponent },
   // { path: 'Testimonials', component: TestimonialsComponent },
-  // { path: 'Gallery', component: GalleryComponent },
+  { path: 'Gallery', component: GalleryComponent },
   // { path: 'Clients', component: ClientsComponent },
   // { path: 'Pricing', component: PricingComponent }
 ];

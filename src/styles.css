@@ -1002,7 +1002,7 @@ blockquote {
     backface-visibility: hidden;
 }
 
-#gallery a:before {
+/* #gallery a:before {
     font-size: 2.2em;
     font-style: normal;
     font-weight: normal;
@@ -1016,6 +1016,28 @@ blockquote {
     top: 55%;
     left: 50%;
     line-height: 72px;
+    margin: -35px 0 0 -35px;
+    opacity: 0;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
+    /*vertical-align: middle;*/
+/*} */
+
+#gallery a:before {
+    font-size: 2.0em;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    content: "CEO and Founder SDSSS";
+    width: 40px;
+    height: 50px;
+    border-radius: 10em;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    line-height: 30px;
     margin: -35px 0 0 -35px;
     opacity: 0;
     -webkit-transition: all .2s linear;
