@@ -4,6 +4,6 @@ export const configuration = {
     headingtext:
       'We undertake software projects to your business',
     buttontext: 'Click here to know more about us',
-    buttonlink: 'https://sridivyasaisoftwaresolutions.netlify.app/About'
+    buttonlink: 'About'
   }
 };
